@@ -1,0 +1,30 @@
+// Colors
+:root {
+	// Primary
+	--Red: #ea5353;
+	--Cyan: #45d3d3;
+	--Orange: #fcaf4a;
+	--Blue: #549ef2;
+
+	// Neutral
+	--Very_Dark_Blue: #4c4e61;
+	--Grayish_Blue: #a3a5ae;
+	--Very_Light_Gray: #fafafa;
+
+	// font weights
+	--font-weight-light: 200;
+	--font-weight-regular: 400;
+	--font-weight-semi-bold: 600;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	font-size: 15px;
+	font-family: "Poppins", sans-serif;
+	user-select: none;
+}
